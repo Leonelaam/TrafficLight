@@ -11,3 +11,73 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.semaforo {
+    background-color: rgb(26, 24, 24);
+    width: 120px;
+    height: 300px;
+    margin-left: 50%;
+    padding: 7px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.luzRoja {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: red;
+    border: 3px solid black;
+}
+.luzNaranja {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: orange;
+    border: 3px solid black;
+}
+.luzVerde {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: green;
+    border: 3px solid black;
+}
+.seleccion {
+    box-shadow: white;
+}
+
+.luzRojaActiva {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: red;
+    border: 3px solid black;
+    box-shadow: 0px 0px 25px red;
+}
+.luzNaranjaActiva {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: orange;
+    border: 3px solid black;
+    box-shadow: 0px 0px 25px orange;
+}
+.luzVerdeActiva {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: green;
+    border: 3px solid black;
+    box-shadow: 0px 0px 25px green;
+};
